@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "ConsoleApp10\Exercise1.csproj", "{047455A8-58DD-4DB2-BCD1-7AA065122057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section9", "Section9", "{8FCB400B-0D64-4F16-89B3-B7144ADB1D7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{047455A8-58DD-4DB2-BCD1-7AA065122057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047455A8-58DD-4DB2-BCD1-7AA065122057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047455A8-58DD-4DB2-BCD1-7AA065122057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047455A8-58DD-4DB2-BCD1-7AA065122057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{047455A8-58DD-4DB2-BCD1-7AA065122057} = {8FCB400B-0D64-4F16-89B3-B7144ADB1D7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11736BE9-74BC-4DF9-8C58-4B7679F22AAF}
+	EndGlobalSection
+EndGlobal
