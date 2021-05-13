@@ -3,7 +3,7 @@ using Exercise1.Entities.Enums;
 using System;
 using System.Globalization;
 
-namespace ConsoleApp10
+namespace Exercise1
 {
     class Program
     {
