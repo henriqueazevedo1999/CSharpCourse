@@ -18,5 +18,10 @@ namespace FixationExercise.Entities
             Email = email ?? throw new ArgumentNullException(nameof(email));
             BirthDate = birthDate;
         }
+
+        public override string ToString()
+        {
+            return $"Client: {Name} {BirthDate.ToString("(dd/MM/yyyy)")} - {Email}";
+        }
     }
 }

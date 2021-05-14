@@ -1,6 +1,7 @@
 ﻿using FixationExercise.Entities.Enums;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,14 +47,14 @@ namespace FixationExercise.Entities
             sb.AppendLine("ORDER SUMMARY:");
             sb.AppendLine($"Order moment: {Moment.ToString("dd/MM/yyyy HH:mm:ss")}");
             sb.AppendLine($"Order status: {Status}");
-            sb.AppendLine($"Client: {Client.Name} {Client.BirthDate.ToString("(dd/MM/yyyy)")} - {Client.Email}");
+            sb.AppendLine($"Client: {Client}");
 
             sb.AppendLine("Order items:");
             foreach (OrderItem orderItem in OrderItems)
             {
-                sb.AppendLine($"{orderItem.Product.Name}, ${orderItem.Price.ToString("F2")}, Quantity: {orderItem.Quantity}, Subtotal: {orderItem.SubTotal().ToString("F2")}");
+                sb.AppendLine(orderItem.ToString());
             }
-            sb.AppendLine($"Total price: ${Total().ToString("F2")}");
+            sb.AppendLine($"Total price: ${Total().ToString("F2", CultureInfo.CurrentCulture)}");
 
             return sb.ToString();
         }
