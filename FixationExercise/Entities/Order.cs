@@ -44,7 +44,6 @@ namespace FixationExercise.Entities
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("ORDER SUMMARY:");
             sb.AppendLine($"Order moment: {Moment.ToString("dd/MM/yyyy HH:mm:ss")}");
             sb.AppendLine($"Order status: {Status}");
             sb.AppendLine($"Client: {Client}");

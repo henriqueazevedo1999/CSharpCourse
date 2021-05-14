@@ -65,6 +65,7 @@ namespace FixationExercise
                 order.AddItem(orderItem);
             }
             Console.WriteLine();
+            Console.WriteLine("ORDER SUMMARY:");
             Console.WriteLine(order.ToString());
         }
     }
